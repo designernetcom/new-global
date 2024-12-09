@@ -618,7 +618,7 @@ ul {
 p {
   font-size: var(--rr-fs-p);
   font-weight: var(--rr-fw-normal);
-  color: var(--rr-text-body);
+  color: #383838;
   margin-bottom: 25px;
   line-height: var(--rr-lh-p);
   text-align: justify;
@@ -12001,7 +12001,7 @@ body .ui-tooltip {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  position: absolute;
+  /* position: absolute; */
   top: 13px;
   left: 0;
 }
@@ -14003,7 +14003,7 @@ body .ui-tooltip {
   max-width: 100%;
 }
 .service-details__content h1, .service-details__content h2, .service-details__content h3, .service-details__content h4, .service-details__content h5, .service-details__content h6 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .service-details__content ul {
   list-style: none;
@@ -14029,7 +14029,7 @@ body .ui-tooltip {
           transform: translate(-50%, -50%);
 }
 .service-details__media {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .service-details__media img {
   width: 100%;
@@ -15016,7 +15016,7 @@ body .ui-tooltip {
 }
 @media (min-width: 1200px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
-      max-width: 1200px;
+      max-width: 1250px;
   }
 }
 .aboutgrid {
