@@ -411,7 +411,7 @@ svg path {
   --rr-color-white: #fff;
   --rr-body-primary: #ffffff;
   --rr-theme-primary: #354a9b;
-  --rr-heading-primary: #080A0B;
+  --rr-heading-primary: #29264a;
   --rr-text-body: #444444;
   --rr-text-p: #767676;
   --rr-menu-primary: #080A0B;
@@ -517,7 +517,7 @@ h6, .h6 {
   color: var(--rr-heading-primary);
   margin-top: 0;
   margin-bottom: 0;
-  font-weight: var(--rr-fw-bold);
+  font-weight: 600;
   word-break: break-word;
 }
 
@@ -1650,25 +1650,26 @@ a:hover {
 .rr-btn {
   border-radius: 0px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
   z-index: 5;
-  padding: 16.5px 33.4px;
+  padding: 14.5px 20.4px;
   background-color: var(--rr-theme-primary);
   color: var(--rr-common-white);
   font-family: var(--rr-ff-robo);
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 23px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-flex
+;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-transform: capitalize;
 }
 .rr-btn:after {
@@ -8103,7 +8104,7 @@ body .ui-tooltip {
   margin-top: 9px;
   text-align: center;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.5;
   color: var(--rr-common-white);
 }
@@ -10075,7 +10076,7 @@ body .ui-tooltip {
   text-transform: capitalize;
   color: var(--rr-common-white);
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
 }
 .footer__social {
@@ -13430,10 +13431,11 @@ body .ui-tooltip {
 }
 
 .contact-us__info-item {
-  padding: 54px 50px;
+  padding: 20px 25px;
   border: 1px solid rgba(8, 10, 11, 0.1);
   text-align: center;
   margin-bottom: 30px;
+  height: 100%;
 }
 @media (max-width: 575px) {
   .contact-us__info-item {
@@ -13464,7 +13466,7 @@ body .ui-tooltip {
   }
 }
 .contact__form-input {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .contact__form-input input, .contact__form-input textarea {
   height: 50px;
@@ -13500,7 +13502,7 @@ body .ui-tooltip {
   color: var(--rr-text-body);
 }
 .contact__form-input textarea {
-  height: 180px;
+  height: 160px;
 }
 @media (max-width: 575px) {
   .contact__form-input textarea {
@@ -15026,7 +15028,7 @@ body .ui-tooltip {
 height: 200px;
 }
 .section__title-wrapper p {
-  text-align: center;
+  /* text-align: center; */
 }
 .about-company__thumb-1 {
   width: 100%;
@@ -15039,4 +15041,7 @@ height: 200px;
 }
 .our-featured-service__item p {
   padding: 0px 20px 10px;
+}
+.about-company__media img {
+  width: 100%;
 }
